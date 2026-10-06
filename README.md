@@ -234,8 +234,8 @@ Maximum value    = 220.00
 
 **Time and Space Complexity
 Operation	Time Complexity**
-Enter Package Details	O(n)
-Display Package Details	O(n)
+Enter Package Details	O(n).
+Display Package Details	O(n).
 Calculate Value/Weight Ratio	O(n)
 Sort Packages (Bubble Sort)	O(n²)
 Find Maximum Value	O(n)
