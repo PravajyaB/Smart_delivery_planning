@@ -232,18 +232,19 @@ Maximum value    = 220.00
 6. Calculate total weight and maximum value.
 7. Display the selected packages.
 
-**Time and Space Complexity
-Operation	Time Complexity**
-Enter Package Details	O(n).
-Display Package Details	O(n).
-Calculate Value/Weight Ratio	O(n)
-Sort Packages (Bubble Sort)	O(n²)
-Find Maximum Value	O(n)
-Display Selected Packages	O(n)
-Overall Complexity
-Time Complexity: O(n²)
-The sorting function uses Bubble Sort, which takes O(n²) time in the worst case.
-Space Complexity: O(n)
-The program stores n packages in an array of structures.
+## Time and Space Complexity
 
-Where n = number of packages.
+* **Calculate Value/Weight Ratio:** O(n)
+* **Sort Packages:** O(n²) using Bubble Sort
+* **Find Maximum Value:** O(n)
+* **Display Selected Packages:** O(n)
+
+### Overall Complexity
+
+* **Time Complexity:** O(n²)
+* **Space Complexity:** O(n)
+
+The overall time complexity is **O(n²)** because the program uses Bubble Sort to arrange packages in decreasing order of Value/Weight ratio. The space complexity is **O(n)** because an array of structures is used to store the package details.
+
+Where **n** is the number of packages.
+
